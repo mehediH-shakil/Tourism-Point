@@ -1,0 +1,28 @@
+.logo{
+  font-weight: 200;
+  line-height: 0;
+  position: relative;
+}
+
+.logo a{
+  font-weight: 200;
+  font-size: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.text-justify{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.card img{
+  width: 100%;
+  height: 200px;
+}
+
+.card-text{
+  overflow: none;
+
+}

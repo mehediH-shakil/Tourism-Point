@@ -1,0 +1,41 @@
+body {
+  color: #5E5C7F;
+  background-color: #F9F9FF;
+  font-family: "Rubik", sans-serif;
+}
+
+
+input{
+	border-radius: 10px;
+	border: 1px solid gray;
+	padding: 12px 10px;
+	width: 260px;
+
+}
+
+input[type=submit]{
+	border: none;
+	width: 280px;
+	background-color: deepskyblue;
+	color: white;
+	font-weight: bolder;
+}
+
+form{
+	width: 280px;
+	box-shadow: 0px 0px 5px gray;
+	padding: 30px 25px;
+	margin: 100px auto;
+	border-top: 5px solid deepskyblue;
+}
+
+form h1,form p{
+	text-align: center;
+}
+
+.error{
+	text-align: left !important;
+	color: red;
+	font-size: 10px;
+	padding-top: 1px;
+}

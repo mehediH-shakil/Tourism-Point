@@ -1,4 +1,4 @@
-# Project Name: 
+# Project Name
 Tourism-Point (A Travel & Tourism Management System)
 
 # Project Description

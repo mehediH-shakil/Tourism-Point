@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0 !important;
+  overflow: auto !important;
+}
+
+body {
+  color: #5E5C7F;
+  background-color: #F9F9FF;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr{
+  color: gray;
+}
+
+ul li{
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+form label{
+  font-size: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form input{
+  border: 0; 
+  height: 20px;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 0px solid red;
+}
+.profile{
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+}
+.button{
+  height: 20px;
+  width: 20px;
+  border: 0;
+  background-color: white;
+}
+
+.btn1{
+  border: none; 
+  border-radius: 25px;
+  width: 15%; 
+  text-align: center;
+  background-color: deepskyblue;
+  color: white;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.icon{
+  height: 20px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.relative {
+  position: relative;
+}
+
+.rounded {
+  border-radius: 20px !important;
+}
+
+.bg-white{
+  background: #FFF;
+}
+
+.shadow-dark{
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+  box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}
+
+.shadow-light{
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.01);
+  box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.01);
+}
+
+.shadow-blue{
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(108, 108, 229, 0.5);
+  box-shadow: 0px 5px 20px 0px rgba(108, 108, 229, 0.5);
+}
+
+.padding-30{
+  padding: 30px;
+}
+
+.btn{
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  line-height: 1;
+  padding: 12px 32px;
+  position: relative;
+}
+
+.btn-default {
+  color: #FFF;
+  background: rgb(108, 108, 229);
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.btn-default:hover {
+  color: #FFF;
+  -webkit-animation-name: button-push;
+  animation-name: button-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}

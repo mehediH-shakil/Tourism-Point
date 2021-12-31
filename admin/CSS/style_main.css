@@ -1,0 +1,28 @@
+.margin-top-bottom-10{
+	margin: 10px 0px 10px 0px;
+}
+
+.text-right{
+	text-align: right;
+}
+.btn{
+	border: 2px solid #0066ff;
+}
+.btn1{
+	border: 0px solid #0066ff;
+}
+.txt{
+  background-color: #444;
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  display: none;
+}
+.error{
+	text-align: left !important;
+	color: red;
+	font-size: 10px;
+}
+
+
+
